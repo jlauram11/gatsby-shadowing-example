@@ -11,7 +11,7 @@ git clone https://github.com/jamesdbruner/gatsby-shadowing-example.git && yarn &
 Shadow the `Heading` component and `Heading` styles (doesn't matter what you change, but change something!)
 
 ### Exercise 2
-Shadow the image
+Shadow the image on the page with `./images/wall.jpg`
 
 ### Exercise 3
 Shadow the `Math` component and fix the equation
