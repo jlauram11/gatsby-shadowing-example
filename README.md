@@ -4,7 +4,7 @@ A handful of exercises to demonstrate shadowing in gatsby.
 
 ## Get started
 ```bash
-git clone && yarn && yarn develop
+git clone https://github.com/jamesdbruner/gatsby-shadowing-example.git && yarn && yarn develop
 ```
 
 ### Exercise 1
