@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-theme-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jamesdbruner <jamesdbruner@gmail.com> (@james_bruner)",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.19.5"
+  }
+}

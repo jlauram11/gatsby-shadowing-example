@@ -1,10 +1,18 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-shadowing-example",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Built with the default gatsby starter to show how shadowing works",
+  "version": "1.0.0",
+  "author": "James Bruner <jamesdbruner@gmail.com>",
   "dependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-emotion": "^10.0.7",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.14.3",
     "gatsby": "^2.19.5",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -36,9 +44,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/gatsbyjs/gatsby-shadowing-example"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  "workspaces": [
+    "gatsby-theme-components",
+    "gatsby-theme-styles",
+    "gatsby-theme-utils"
+  ]
 }

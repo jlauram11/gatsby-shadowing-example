@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Gatsby Shadowing Example`,
+    description: `Practice shadowing components, images and child themes in this interactive demo repo`,
     author: `@gatsbyjs`,
   },
   plugins: [
+    'gatsby-theme-components',
+    'gatsby-theme-styles',
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
