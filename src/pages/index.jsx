@@ -2,10 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-// import Heading from "gatsby-theme-components/src/components/Heading"
-// import Mural from "gatsby-theme-components/src/components/Mural"
-// import Math from "gatsby-theme-components/src/utils/Math"
-
 const IndexPage = () => (
   <Layout>
     <p>

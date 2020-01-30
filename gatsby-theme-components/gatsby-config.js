@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Theme Mural`,
+    title: `Gatsby Theme Utils`,
     description: ``,
     author: `@james_bruner`,
   },
