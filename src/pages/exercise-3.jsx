@@ -1,22 +1,24 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Heading from 'gatsby-theme-components/src/components/Heading'
-import Layout from '../components/layout'
+import P from 'gatsby-theme-components/src/components/Paragraph'
+import Link from 'gatsby-theme-components/src/components/Link'
 import Math from 'gatsby-theme-components/src/components/Math'
+import Layout from '../components/layout'
 
 const Excercise3 = () => (
   <Layout>
     <Heading>Exercise 3</Heading>
 
-    <p>The Math component is</p>
-
-    <p>Shadow the <code>Math</code> component to fix the equation.</p>
+    <P>
+      Shadow the <code>Math</code> component and fix the equation
+    </P>
 
     <Math />
 
-    <br />
-    <Link to="/">Back to Home</Link>
+    <Link style={{ display: 'block', marginTop: '30px' }} to="/">
+      Back to Home
+    </Link>
   </Layout>
 )
 

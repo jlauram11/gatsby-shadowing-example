@@ -1,21 +1,22 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from 'gatsby-theme-components/src/components/Link'
+import P from 'gatsby-theme-components/src/components/Paragraph'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <p>
+    <P>
       In this repository there are three <code>gatsby-themes</code> and three
       exercises for you to try your hand at shadowing components, images and
       even components in child themes.
-    </p>
+    </P>
 
-    <p>
-      The goal is to not edit any files in <code>gatsby-theme-components</code>,
-      <code>gatsby-theme-utils</code> or <code>gatsby-theme-styles</code>
-    </p>
-
-    <Link to="/exercise-1/">Get started</Link>
+    <P>
+      The goal is to not edit any files directly in{' '}
+      <code>gatsby-theme-components</code>, <code>gatsby-theme-utils</code> or{' '}
+      <code>gatsby-theme-styles</code>
+      <Link to="/exercise-1/">Get started</Link>
+    </P>
   </Layout>
 )
 

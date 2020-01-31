@@ -1,3 +1,3 @@
-const MathUtil = () => `Brain Buster: 1 + 1 = ???`
+const MathUtil = (a, b) => a + b - 4
 
 export default MathUtil

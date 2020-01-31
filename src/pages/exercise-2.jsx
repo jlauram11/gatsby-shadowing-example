@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Heading from 'gatsby-theme-components/src/components/Heading'
+import P from 'gatsby-theme-components/src/components/Paragraph'
+import Link from 'gatsby-theme-components/src/components/Link'
 import Image from 'gatsby-theme-components/src/components/Image'
 import Layout from '../components/layout'
 
@@ -9,21 +10,19 @@ const Excercise2 = () => (
   <Layout>
     <Heading>Exercise 2</Heading>
 
-    <h3>Ahhh! A wildly offensive Mural!</h3>
-    <p>
+    <P>Ahhh! A wildly offensive Mural!</P>
+    <P>
       Quickly shadow
       <code>gatsby-theme-components</code> and replace it with the image called{' '}
       <code>wall.jpg</code> in <code>./src/images/</code>
-    </p>
+    </P>
 
     <Image />
 
-    <p>
-
-      Once you&apos;re done with that, head on to the{' '}
-
-      <Link to="/exercise-3">next example</Link>
-    </p>
+    <P>
+      Once you&apos;re done with that, you can move on to the last exercise.
+      <Link to="/exercise-3">Next Exercise</Link>
+    </P>
   </Layout>
 )
 
