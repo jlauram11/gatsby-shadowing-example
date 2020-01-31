@@ -1,8 +1,8 @@
 import React from 'react'
 
 import P from 'gatsby-theme-components/src/components/Paragraph'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from 'gatsby-theme-components/src/components/Layout'
+import SEO from 'gatsby-theme-components/src/components/SEO'
 
 const NotFoundPage = () => (
   <Layout>

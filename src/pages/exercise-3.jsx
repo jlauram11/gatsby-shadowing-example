@@ -4,7 +4,7 @@ import Heading from 'gatsby-theme-components/src/components/Heading'
 import P from 'gatsby-theme-components/src/components/Paragraph'
 import Link from 'gatsby-theme-components/src/components/Link'
 import Math from 'gatsby-theme-components/src/components/Math'
-import Layout from '../components/layout'
+import Layout from 'gatsby-theme-components/src//components/Layout'
 
 const Excercise3 = () => (
   <Layout>
@@ -16,9 +16,7 @@ const Excercise3 = () => (
 
     <Math />
 
-    <Link style={{ display: 'block', marginTop: '30px' }} to="/">
-      Back to Home
-    </Link>
+    <Link to="/">Back to Home</Link>
   </Layout>
 )
 

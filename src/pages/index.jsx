@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-theme-components/src/components/Link'
 import P from 'gatsby-theme-components/src/components/Paragraph'
-import Layout from '../components/layout'
+import Layout from 'gatsby-theme-components/src/components/Layout'
 
 const IndexPage = () => (
   <Layout>

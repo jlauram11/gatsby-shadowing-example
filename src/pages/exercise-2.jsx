@@ -4,7 +4,7 @@ import Heading from 'gatsby-theme-components/src/components/Heading'
 import P from 'gatsby-theme-components/src/components/Paragraph'
 import Link from 'gatsby-theme-components/src/components/Link'
 import Image from 'gatsby-theme-components/src/components/Image'
-import Layout from '../components/layout'
+import Layout from 'gatsby-theme-components/src/components/Layout'
 
 const Excercise2 = () => (
   <Layout>
