@@ -3,6 +3,9 @@
 A handful of exercises to demonstrate shadowing in gatsby.
 
 ## Get started
+
+Switch to node version `10.13.0`, if you're using `nvm` you can run `nvm 10.13.0` to install it.
+
 ```bash
 git clone https://github.com/jamesdbruner/gatsby-shadowing-example.git && yarn && yarn develop
 ```
