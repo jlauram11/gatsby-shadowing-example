@@ -18,3 +18,6 @@ Shadow the image on the page with `./images/wall.jpg`
 
 ### Exercise 3
 Shadow the `Math` component and fix the equation
+
+### Exercise 4
+Shadow `navItems.js` in `gatsby-theme-components/Footer` and replace the footer navigation items with your own links
